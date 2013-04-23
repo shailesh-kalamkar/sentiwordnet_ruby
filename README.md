@@ -14,7 +14,7 @@ For example, If a sentence has a score of 0, it is deemed "neutral".
 - Positive scores are > 0.25 &  <= 0.75
 - Weak positive scores are > 0 & <= 0.25
 - Weak negative scores are  < 0 & >= -0.25
-- Negative scores are < -0.25 &&  >= -0.75
+- Negative scores are < -0.25 &  >= -0.75
 - Very negative scores are < -0.75
 
 
@@ -31,7 +31,7 @@ For example, If a sentence has a score of 0, it is deemed "neutral".
 SentiWordNet.load_defaults
 
 # And/or load your own SentiWordNet dictionaries
-# Note:- Please remove the lines starting with '#' before loading a disctionary
+# Note:- Please remove the lines starting with '#' before loading a dictionary
 
 SentiWordNet.load_senti_file('path/to/your/file.txt')
 
