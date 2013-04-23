@@ -12,10 +12,15 @@ For example, If a sentence has a score of 0, it is deemed "neutral".
 
 - Very positive scores are > 0.75
 - Positive scores are > 0.25 &  <= 0.75
-- Weak positive scores are > 0 & score <= 0.25
+- Weak positive scores are > 0 & <= 0.25
 - Weak negative scores are  < 0 & >= -0.25
 - Negative scores are < -0.25 &&  >= -0.75
 - Very negative scores are < -0.75
+
+
+## Installation 
+
+    gem install sentiwordnet_ruby
 
 
 ## Usage
@@ -47,10 +52,6 @@ analyzer.get_score 'I love sentiwordnet'
 #=> 0.9841496598639456
 
 ```
-
-## Installation 
-
-    gem install sentiwordnet_ruby
 
 ## Credits
 
