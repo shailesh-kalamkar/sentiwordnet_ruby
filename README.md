@@ -38,7 +38,7 @@ analyzer.get_sentiment "I love sentiwordnet"
 #=> "very_positive"
 
 analyzer.get_sentiment 'I like sentiwordnet'
-#=> :positive
+#=> "positive"
 
 
 
