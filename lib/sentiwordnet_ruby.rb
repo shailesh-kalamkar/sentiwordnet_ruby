@@ -1,7 +1,6 @@
 class SentiWordNet
 
   @@sentihash = {}
-  @@threshold = 0.0
 
 
   def get_score(string)
