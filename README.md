@@ -5,7 +5,7 @@ Simple SentiWordNet 3.0 based tool for sentimental analysis. It is inspired from
 ## How it works
 
 Sentences are tokenized, tokens are assigned a numerical score provided by SentiWordNet 3.0.
-The total score is then used to determine the overall sentiment in relation to the thresold.
+The total score is then used to determine the overall sentiment.
 
 For example, If a sentence has a score of 0, it is deemed "neutral".
 
